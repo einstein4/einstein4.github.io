@@ -39,8 +39,8 @@ function setup() {
 
   // 이미지 생성
   imageMode(CENTER);
-  img1 = loadImage('1.jpg');
-  img2 = loadImage('2.jpg');
+  img1 = loadImage('./img/1.jpg');
+  img2 = loadImage('./img/2.jpg');
   img3 = loadImage('./img/3.jpg');
   img4 = loadImage('./img/4.jpg');
   img5 = loadImage('./img/5.jpg');
