@@ -39,24 +39,24 @@ function setup() {
 
   // 이미지 생성
   imageMode(CENTER);
-  img1 = loadImage('./picture/1.jpg');
-  img2 = loadImage('./picture/2.jpg');
-  img3 = loadImage('./picture/3.jpg');
-  img4 = loadImage('./picture/4.jpg');
-  img5 = loadImage('./picture/5.jpg');
-  img6 = loadImage('./picture/6.jpg');
-  img7 = loadImage('./picture/7.jpg');
-  img8 = loadImage('./picture/8.jpg');
-  img9 = loadImage('./picture/9.jpg');
-  img11 = loadImage('./picture/11.jpg');
-  img12 = loadImage('./picture/12.jpg');
-  img13 = loadImage('./picture/13.jpg');
-  img14 = loadImage('./picture/14.jpg');
-  img15 = loadImage('./picture/15.jpg');
-  img16 = loadImage('./picture/16.jpg');
-  img17 = loadImage('./picture/17.jpg');
-  img18 = loadImage('./picture/18.jpg');
-  img19 = loadImage('./picture/19.jpg');
+  img1 = loadImage('./img/1.jpg');
+  img2 = loadImage('./img/2.jpg');
+  img3 = loadImage('./img/3.jpg');
+  img4 = loadImage('./img/4.jpg');
+  img5 = loadImage('./img/5.jpg');
+  img6 = loadImage('./img/6.jpg');
+  img7 = loadImage('./img/7.jpg');
+  img8 = loadImage('./img/8.jpg');
+  img9 = loadImage('./img/9.jpg');
+  img11 = loadImage('./img/11.jpg');
+  img12 = loadImage('./img/12.jpg');
+  img13 = loadImage('./img/13.jpg');
+  img14 = loadImage('./img/14.jpg');
+  img15 = loadImage('./img/15.jpg');
+  img16 = loadImage('./img/16.jpg');
+  img17 = loadImage('./img/17.jpg');
+  img18 = loadImage('./img/18.jpg');
+  img19 = loadImage('./img/19.jpg');
   
   // 버튼을 클릭할 때 이미지 변경
   buttonZoomIn.mousePressed(imgZoomInChange);
@@ -76,93 +76,93 @@ function draw() {
 function imgZoomInChange(){
   if(counter == 1){
     counter++;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 2){
     counter++;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 3){
     counter++;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 4){
     counter++;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 5){
     counter++;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 6){
     counter++;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 7){
     counter++;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 8){
     counter++;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 9){
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
 }
 
 function imgZoomOutChange(){
   if(counter == 1){
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 2){
     counter--;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 3){
     counter--;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 4){
     counter--;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 5){
     counter--;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 6){
     counter--;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 7){
     counter--;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 8){
     counter--;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
   else if(counter == 9){
     counter--;
-    img1 = loadImage('./picture/' + counter + '.jpg')
-    img11 = loadImage('./picture/1' + counter + '.jpg')
+    img1 = loadImage('./img/' + counter + '.jpg')
+    img11 = loadImage('./img/1' + counter + '.jpg')
   }
 }
